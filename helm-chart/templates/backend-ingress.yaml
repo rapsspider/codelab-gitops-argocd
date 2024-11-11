@@ -16,4 +16,4 @@ spec:
               service:
                 name: "{{ .Values.backend.name }}-service"
                 port:
-                  number: {{ .Values.backend.service.port }}
+                  name: http

@@ -19,3 +19,4 @@ spec:
         image: {{ .Values.backend.image }}
         ports:
         - containerPort: {{ .Values.backend.containerPort }}
+          name: http
